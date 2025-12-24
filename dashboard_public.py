@@ -10,8 +10,8 @@ st.set_page_config(page_title="Baris AI Fund", layout="wide")
 # --- AUTHENTICATION (From Secrets) ---
 # We use st.secrets so we don't expose keys in the code
 try:
-    API_KEY = st.secrets["ALPACA_KEY"]
-    SECRET_KEY = st.secrets["ALPACA_SECRET"]
+    API_KEY = st.secrets["PKXFF44RDPK5PH7DDVMGEWM7J2"]
+    SECRET_KEY = st.secrets["HfSP8i1KKJDCq9bmmCFc1ciF97tCKs8SUz7Qp1N8uTaL"]
 except:
     st.error("⚠️ API Keys Missing! Set them in Streamlit Secrets.")
     st.stop()
